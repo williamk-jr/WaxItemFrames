@@ -1,34 +1,25 @@
 {
-	"schemaVersion": 1,
-	"id": "wax-item-frames",
-	"version": "${version}",
-	"name": "Wax Item Frames",
-	"description": "Lets you wax item frames to prevent interactions!",
-	"authors": [
-		"Iamaprogrammer"
-	],
-	"contact": {
-		"homepage": "https://github.com/lamaprogramer/WaxItemFrames",
-		"sources": "https://github.com/lamaprogramer/WaxItemFrames"
-	},
-	"license": "MIT",
-	"icon": "assets/wax-item-frames/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"net.iamaprogrammer.WaxItemFrames"
-		]
-	},
-	"mixins": [
-		"wax-item-frames.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": ">=1.21.5",
-		"java": ">=21",
-		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
-	}
+  "schemaVersion": 1,
+  "id": "wax-item-frames",
+  "version": "${version}",
+  "name": "Wax Item Frames",
+  "description": "Wax item frames to prevent interactions. Port to 26.3.",
+  "authors": ["Iamaprogrammer"],
+  "contact": {
+    "homepage": "https://github.com/lamaprogramer/WaxItemFrames",
+    "sources": "https://github.com/lamaprogramer/WaxItemFrames"
+  },
+  "license": "MIT",
+  "icon": "assets/wax-item-frames/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["net.iamaprogrammer.WaxItemFrames"]
+  },
+  "mixins": ["wax-item-frames.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
 }
